@@ -1,0 +1,12 @@
+#gif-form {
+    float: right;
+}
+
+#buttons{
+    float: left;
+    clear: both;
+}
+
+#gif-display{
+    clear: both;
+}
