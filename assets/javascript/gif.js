@@ -13,4 +13,21 @@ $(document).ready(function () {
     });
 
     //add array of buttons to html
+    function addButtons() {
+        $("#buttons").empty();
+
+        for (var i = 0; i < gifArr.length; i++) {
+            var btns = $("<button>");
+
+            btns.addClass("giffy");
+            btns.attr("data-name", gifArr[i]);
+            btns.text(gifArr[i]);
+            $("#buttons").append(btns);
+        }
+    }
+    addButtons();
+
+
+    //when a button is clicked gifs are shown
+    
 });

@@ -1,12 +1,50 @@
+body {
+    padding: 10px;
+}
+
 #gif-form {
     float: right;
 }
 
-#buttons{
-    float: left;
-    clear: both;
+button {
+    margin-left: 10px;
+    background-color: rgba(174, 217, 232, 0.762);
+    border: 1px solid black;
 }
 
-#gif-display{
+button:hover {
+    background-color: rgb(103, 194, 225);
+    transition: ease-in 0.5s;
+    
+}
+
+#add-gif:hover {
+    border: 2px solid black;
+    outline: none;
+}
+
+#gif-input {
+    outline: none;
+}
+
+
+#buttons {
+    float: left;
     clear: both;
+
+}
+
+#gif-display {
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+img {
+    margin: 10px;
+}
+
+p {
+    margin: 10px;
 }
